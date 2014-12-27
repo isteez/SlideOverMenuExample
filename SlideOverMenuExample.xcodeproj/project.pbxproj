@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		EC6E33201A3240E000148906 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6E331F1A3240E000148906 /* AppDelegate.swift */; };
-		EC6E33221A3240E000148906 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6E33211A3240E000148906 /* ViewController.swift */; };
 		EC6E33251A3240E000148906 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC6E33231A3240E000148906 /* Main.storyboard */; };
 		EC6E33271A3240E000148906 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC6E33261A3240E000148906 /* Images.xcassets */; };
 		EC6E332A1A3240E000148906 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC6E33281A3240E000148906 /* LaunchScreen.xib */; };
 		EC6E33361A3240E000148906 /* SlideOverMenuExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6E33351A3240E000148906 /* SlideOverMenuExampleTests.swift */; };
+		ECFC8E8D1A324E9400EBB1C1 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFC8E8C1A324E9400EBB1C1 /* ContainerViewController.swift */; };
+		ECFC8E911A324F5300EBB1C1 /* CenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFC8E901A324F5300EBB1C1 /* CenterViewController.swift */; };
+		ECFC8E931A32721700EBB1C1 /* SidePanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFC8E921A32721700EBB1C1 /* SidePanelViewController.swift */; };
+		ECFC8E951A3286C700EBB1C1 /* CustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFC8E941A3286C700EBB1C1 /* CustomNavigationBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +32,16 @@
 		EC6E331A1A3240E000148906 /* SlideOverMenuExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideOverMenuExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC6E331E1A3240E000148906 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC6E331F1A3240E000148906 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EC6E33211A3240E000148906 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EC6E33241A3240E000148906 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC6E33261A3240E000148906 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EC6E33291A3240E000148906 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		EC6E332F1A3240E000148906 /* SlideOverMenuExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideOverMenuExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC6E33341A3240E000148906 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC6E33351A3240E000148906 /* SlideOverMenuExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideOverMenuExampleTests.swift; sourceTree = "<group>"; };
+		ECFC8E8C1A324E9400EBB1C1 /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		ECFC8E901A324F5300EBB1C1 /* CenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterViewController.swift; sourceTree = "<group>"; };
+		ECFC8E921A32721700EBB1C1 /* SidePanelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SidePanelViewController.swift; path = ../SidePanelViewController.swift; sourceTree = "<group>"; };
+		ECFC8E941A3286C700EBB1C1 /* CustomNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavigationBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +84,10 @@
 			isa = PBXGroup;
 			children = (
 				EC6E331F1A3240E000148906 /* AppDelegate.swift */,
-				EC6E33211A3240E000148906 /* ViewController.swift */,
 				EC6E33231A3240E000148906 /* Main.storyboard */,
+				ECFC8E901A324F5300EBB1C1 /* CenterViewController.swift */,
+				ECFC8E8C1A324E9400EBB1C1 /* ContainerViewController.swift */,
+				ECFC8E921A32721700EBB1C1 /* SidePanelViewController.swift */,
 				EC6E33261A3240E000148906 /* Images.xcassets */,
 				EC6E33281A3240E000148906 /* LaunchScreen.xib */,
 				EC6E331D1A3240E000148906 /* Supporting Files */,
@@ -91,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				EC6E331E1A3240E000148906 /* Info.plist */,
+				ECFC8E941A3286C700EBB1C1 /* CustomNavigationBar.swift */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -212,8 +221,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC6E33221A3240E000148906 /* ViewController.swift in Sources */,
+				ECFC8E931A32721700EBB1C1 /* SidePanelViewController.swift in Sources */,
+				ECFC8E8D1A324E9400EBB1C1 /* ContainerViewController.swift in Sources */,
 				EC6E33201A3240E000148906 /* AppDelegate.swift in Sources */,
+				ECFC8E911A324F5300EBB1C1 /* CenterViewController.swift in Sources */,
+				ECFC8E951A3286C700EBB1C1 /* CustomNavigationBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +417,7 @@
 				EC6E333B1A3240E000148906 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC6E333C1A3240E000148906 /* Build configuration list for PBXNativeTarget "SlideOverMenuExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +426,7 @@
 				EC6E333E1A3240E000148906 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

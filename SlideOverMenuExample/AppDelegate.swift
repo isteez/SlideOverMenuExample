@@ -16,6 +16,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        ApplyCustomNavigationBar(0xFFFFFF, 0x2977CF, 0xFFFFFF)
+        
+        let containerViewController = ContainerViewController()
+        
+        window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        window!.rootViewController = containerViewController
+        window!.makeKeyAndVisible()
+        
         return true
     }
 
